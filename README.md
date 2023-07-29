@@ -1,3 +1,8 @@
+TEAM 23: BUG BUSTERS
+1. Kuwar Jain
+2. Devansh Vashisht
+3. Tushar Sahni
+
 Our team's project is to create a website for upcoming fresher. 
 As we all know during intial days of college, one is filled with several questions but at the same time he is very nervous to ask them to any senior. 
 We have come up with a solution of developing a website encompassing all the relevant questions and tips one should be aware of before starting their college life.
