@@ -1,0 +1,27 @@
+body {
+    margin: 1000;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    
+  }
+  
+  .center-container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: inherit;
+    font-size: 1000px;
+    font-weight: bold;
+    font-style: initial;
+    position: absolute;
+  top: 30px;
+  left: 35%;
+    color:rgb(157, 16, 16);
+    
+  }
+ 
