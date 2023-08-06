@@ -5,10 +5,11 @@ import clubcontent from "../MyContent/clubs";
 import sportscontent from "../MyContent/sports";
 import hostelcontent from "../MyContent/hostels";
 import internshipcontent from "../MyContent/internships";
+import "./Header.css";
 export default function Header() {
   return (
     <>
-      <ul className="nav nav-pills nav-justified" id="myTab" role="tablist">
+      <ul className="nav nav-tabs nav-fill" id="myTab" role="tablist">
         <li className="nav-item" role="presentation">
           <button
             className="nav-link active"

@@ -3,7 +3,6 @@ import "./App.css";
 import Header from "./MyComponents/Header";
 import "./MyComponents/Title.css";
 import Footer from "./MyComponents/Footer";
-
 function App() {
   const [count, setCount] = useState(0);
 
