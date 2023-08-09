@@ -1,8 +1,11 @@
 #root {
-  padding: 0rem;
+  
   text-align: center;
-  max-height: 70vh;
+  max-height: 100vh;
   min-width: 175vh;
+  background-color:tan;
+  text-decoration-color: tan;
+
 }
 
 ul {
@@ -11,10 +14,61 @@ ul {
     font-weight: bold;
     font-style: initial;
     min-height: 5vh;
+    text-align: justify;
+    position: sticky;
+    z-index: 40;
+  
+    
    
   top: 10px;
   left: 0%;
   margin-top: 0rem;
-    color:rgba(255, 0, 0, 0.5);
+    color:tan;
     
   }
+  
+.nav_item {
+  
+  margin-top: 3%;
+  
+
+}
+div{
+text-align: justify;
+font-family: "Calisto MT", Times, serif;
+font-size: 20px;
+font-weight:400;
+
+}
+hr{
+  height: 0;
+  color: black;
+}
+.mytab{
+  background-color: tan;
+}
+.nav-tabs .nav-item{
+  background-color:  #E6DCD3;
+  color: white;
+  transition: all 0.1s linear;
+
+}
+.nav-tabs .nav-item:hover {
+  font-size: 25px;
+}
+.nav-tabs{
+ color: rgb(235, 0, 0);
+ 
+
+}
+.nav-tabs > li.active > a {
+  color: #3c5a78;
+  font-size: 16px;
+  padding: 5bh;
+}
+.nav-tabs > li > a {
+  color: #575757;
+}
+.nav .nav-link{
+  color: rgb(0, 0, 0);
+}

@@ -1,15 +1,15 @@
 import { useState } from "react";
-import homecontent from "../MyContent/Home";
-import academiccontent from "../MyContent/Academics";
-import clubcontent from "../MyContent/clubs";
+import Home from "../MyContent/Home";
+import Club from "../MyContent/clubs"
 import sportscontent from "../MyContent/sports";
 import hostelcontent from "../MyContent/hostels";
 import internshipcontent from "../MyContent/internships";
+import Academics from "../MyContent/Academics";
 import "./Header.css";
 export default function Header() {
   return (
     <>
-      <ul className="nav nav-tabs nav-fill" id="myTab" role="tablist">
+      <ul className="nav nav-tabs nav-fill" id="myTab " role="tablist">
         <li className="nav-item" role="presentation">
           <button
             className="nav-link active"
@@ -21,7 +21,7 @@ export default function Header() {
             aria-controls="home-tab-pane"
             aria-selected="true"
           >
-            Home
+            HOME
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -35,7 +35,7 @@ export default function Header() {
             aria-controls="profile-tab-pane"
             aria-selected="false"
           >
-            Academics
+            ACADEMICS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -49,7 +49,7 @@ export default function Header() {
             aria-controls="contact-tab-pane"
             aria-selected="false"
           >
-            Clubs and Societies
+            CLUBS AND SOCIETIES
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -63,7 +63,7 @@ export default function Header() {
             aria-controls="sports-tab-pane"
             aria-selected="false"
           >
-            Sports
+            SPORTS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -77,7 +77,7 @@ export default function Header() {
             aria-controls="hostels-tab-pane"
             aria-selected="false"
           >
-            Hostels
+            HOSTELS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -91,7 +91,7 @@ export default function Header() {
             aria-controls="internships-tab-pane"
             aria-selected="false"
           >
-            Internships and Packages
+            INTERNSHIPS AND PLACEMENTS
           </button>
         </li>
       </ul>
@@ -103,7 +103,7 @@ export default function Header() {
           aria-labelledby="home-tab"
           tabindex="0"
         >
-          {homecontent}
+          <Home />
         </div>
 
         <div
@@ -113,7 +113,7 @@ export default function Header() {
           aria-labelledby="profile-tab"
           tabindex="0"
         >
-          {academiccontent}
+          <Academics />
         </div>
         <div
           className="tab-pane fade"
@@ -122,8 +122,9 @@ export default function Header() {
           aria-labelledby="contact-tab"
           tabindex="0"
         >
-          {clubcontent}
+          <Club/>
         </div>
+
         <div
           className="tab-pane fade"
           id="sports-tab-pane"
