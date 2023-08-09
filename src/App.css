@@ -1,0 +1,18 @@
+#root {
+  min-height: 1500px;
+  max-width: 60px;
+  margin: auto;
+  padding: 0rem;
+  text-align: center;
+  background-color: tan;
+  background-size: cover;
+}
+
+
+.read-the-docs {
+  color: tan;
+}
+hr{
+  
+  width: 100%;
+}
