@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Home from "../MyContent/Home";
-import Club from "../MyContent/clubs"
-import sportscontent from "../MyContent/sports";
-import hostelcontent from "../MyContent/hostels";
-import internshipcontent from "../MyContent/internships";
+import Club from "../MyContent/clubs";
+import Sports from "../MyContent/sports";
+import Hostel from "../MyContent/hostels";
+import Internships from "../MyContent/internships";
 import Academics from "../MyContent/Academics";
 import "./Header.css";
 export default function Header() {
@@ -91,7 +91,7 @@ export default function Header() {
             aria-controls="internships-tab-pane"
             aria-selected="false"
           >
-            INTERNSHIPS AND PLACEMENTS
+            PLACEMENTS
           </button>
         </li>
       </ul>
@@ -122,7 +122,7 @@ export default function Header() {
           aria-labelledby="contact-tab"
           tabindex="0"
         >
-          <Club/>
+          <Club />
         </div>
 
         <div
@@ -132,7 +132,7 @@ export default function Header() {
           aria-labelledby="Sports-tab"
           tabindex="0"
         >
-          {sportscontent}
+          <Sports/>
         </div>
         <div
           className="tab-pane fade"
@@ -141,7 +141,7 @@ export default function Header() {
           aria-labelledby="Hostels-tab"
           tabindex="0"
         >
-          {hostelcontent}
+          <Hostel />
         </div>
         <div
           className="tab-pane fade"
@@ -150,7 +150,7 @@ export default function Header() {
           aria-labelledby="internships-tab"
           tabindex="0"
         >
-          {internshipcontent}
+          <Internships />
         </div>
       </div>
     </>

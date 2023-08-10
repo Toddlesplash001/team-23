@@ -1,9 +1,11 @@
 import React from "react";
-import Unknown from "../assets/Unknown.jpeg";
+import Unknown from "../assets/Main_Entrance_of_PEC_Chandigarh.jpg";
 export default function Home() {
   return (
     <>
       <div>
+        <img src={Unknown} alt="Building of PEC" width={1440} height={500} ></img>
+        <br></br>
         <br></br>
         Punjab Engineering College (abbreviated PEC or PEC Chandigarh) is a
         public research & technical institution in Chandigarh. It was founded in
@@ -18,9 +20,6 @@ export default function Home() {
         questions that arise in the minds of students when thinking about taking
         admission in this college.
       </div>
-      <br></br>
-      <br></br>
-      <img src={Unknown} alt="Logo of PEC" width={500}></img>
-    </>
+      </>
   );
 }

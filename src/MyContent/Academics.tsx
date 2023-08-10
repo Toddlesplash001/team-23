@@ -189,9 +189,6 @@ export default function Academics() {
         week before the exams it is open till midnight, so that the students may
         study properly in the library if they want to.
       </MDBAccordionItem>
-      <MDBAccordionItem collapseId={22} headerTitle="Q">
-        A
-      </MDBAccordionItem>
     </MDBAccordion>
   );
 }
