@@ -1,6 +1,6 @@
 .section__padding{
     padding: 2rem 4rem;
-   margin-top:20vh;
+   margin-top:18vh;
     margin-bottom: 0vh;
     min-width: 150vh;
 }
@@ -44,6 +44,9 @@ a{
 }
 .socialmedia img{
     width: 80%;
+}
+.sb__footer-links_div h3{
+    color: white;
 }
 .sb__footer-links_div h4{
     font-size: 20ch;
