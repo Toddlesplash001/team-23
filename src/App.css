@@ -1,14 +1,13 @@
 #root {
-  min-height: 1500px;
+  min-height: 1800px;
   max-width: 60px;
   margin: auto;
   padding: 0rem;
   text-align: center;
   background-color: tan;
   background-size: cover;
+
 }
-
-
 .read-the-docs {
   color: tan;
 }
@@ -19,4 +18,16 @@ hr{
 .img{
   display: flex;
   align-items: flex-start;
+}
+.symbol{
+  position: absolute;
+  left: 0;
+  top: 0;
+  
+}
+.logo2{
+  position: absolute;
+  right: 0%;
+  top: 0;
+  
 }
