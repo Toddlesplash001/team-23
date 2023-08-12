@@ -11,6 +11,7 @@ body {
 
 .center-container {
   text-align: left;
+
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
   font-style: initial;
   position: absolute;
 top: 30px;
-left: 35%;
+left: 30%;
   color:black;
   text-align: left;
   

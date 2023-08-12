@@ -11,14 +11,21 @@ function App() {
 
   return (
     <>
-      <img src={symbol} alt="symbol of PEC" width={100} height={100} ></img>
-      <img src={logo2} alt="logo2 of PEC" width={200} height={100} ></img>
-
-      <div className="center-container">
-        <h1>ALL ABOUT PEC</h1>
+      {" "}
+      <div className="symbol">
+        <img src={symbol} alt="symbol of PEC" width={150} height={150}></img>
       </div>
-
+      <div className="logo2">
+        <img src={logo2} alt="logo2 of PEC" width={300} height={140}></img>
+      </div>
+      <div className="center-container">
+        <h1> ALL ABOUT PEC</h1>
+      </div>
+      <br></br>
       <Header />
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer />
     </>
   );

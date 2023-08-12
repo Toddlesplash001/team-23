@@ -10,6 +10,13 @@
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
     font-size: 20px;
     font-family: "Calisto MT", Times, serif;
-    
-    
+    transition: all 0.1s linear;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #E6DCD3;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-item.content{
+    background-color: black;
 }
