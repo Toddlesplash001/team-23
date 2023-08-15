@@ -11,7 +11,6 @@ function App() {
 
   return (
     <>
-      {" "}
       <div className="symbol">
         <img src={symbol} alt="symbol of PEC" width={150} height={150}></img>
       </div>
@@ -26,6 +25,8 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      
       <Footer />
     </>
   );

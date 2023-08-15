@@ -1,7 +1,6 @@
 #root {
   
   text-align: center;
-  max-height: 100vh;
   min-width: 175vh;
   background-color:tan;
   text-decoration-color: tan;
@@ -23,16 +22,11 @@ ul {
     text-align: justify;
     position: sticky;
     z-index: 40;
-  
-    
-   
-  top: 10px;
-  left: 0%;
-  margin-top: 0rem;
+    top: 10px;
+    left: 0%;
+    margin-top: 0rem;
     color:tan;
-    
-  }
-  
+    }
 .nav_item {
   
   margin-top: 3%;
@@ -42,7 +36,6 @@ text-align: justify;
 font-family: "Calisto MT", Times, serif;
 font-size: 20px;
 font-weight:400;
-
 }
 hr{
   height: 0;
@@ -62,9 +55,7 @@ hr{
 }
 .nav-tabs{
  color: rgb(235, 0, 0);
- 
-
-}
+ }
 .nav-tabs > li.active > a {
   color: #3c5a78;
   font-size: 16px;
