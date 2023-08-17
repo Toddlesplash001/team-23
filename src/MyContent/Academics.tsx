@@ -4,6 +4,7 @@ import "../MyContent/Academics.css";
 export default function Academics() {
   return (
     <>
+    
       <MDBAccordion flush initialActive={1}>
         <MDBAccordionItem
           collapseId={1}

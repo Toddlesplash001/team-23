@@ -10,7 +10,7 @@ function App() {
   return (
     <><div className="symbol">
         <a href = "https://pec.ac.in">
-        <img src={symbol} alt="symbol of PEC" width={235} height={90}></img>
+        <img src={symbol} alt="symbol of PEC" width={250} height={90}></img>
         </a>
       </div>
       <Header />
