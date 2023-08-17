@@ -13,8 +13,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={2}
-        headerTitle="What companies have visited the college in the past few years?
-"
+        headerTitle="What companies have visited the college in the past few years?"
       >
         In the past few years, many major companies have visited the college,
         including Apple, Microsoft, Goldman Sachs, JP Morgan, Maruti Suzuki,
@@ -22,8 +21,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={3}
-        headerTitle=" What is the average package at PEC?
-"
+        headerTitle=" What is the average package at PEC?"
       >
         The average package at PEC is 11.00 lacs per annum.
       </MDBAccordionItem>
@@ -40,8 +38,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={5}
-        headerTitle=" Do the students get an opportunity to get some internship and practical work experience during their degree?
-"
+        headerTitle=" Do the students get an opportunity to get some internship and practical work experience during their degree?"
       >
         Yes, the students get the opportunity to have practical work experience
         in the form of an internship. They perform this internship during their
@@ -49,8 +46,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={6}
-        headerTitle="Does the college have strong connections with industry professionals and companies that often hire graduates?
-"
+        headerTitle="Does the college have strong connections with industry professionals and companies that often hire graduates?"
       >
         Yes, the college has a strong alumni network and it does have
         connections with industry professionals which helps the students to get
@@ -58,8 +54,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={7}
-        headerTitle="Does the college organise seminars or workshops by the industry experts for the students to help them in their placement training?
-"
+        headerTitle="Does the college organise seminars or workshops by the industry experts for the students to help them in their placement training?"
       >
         The college organises seminars on a regular basis, with the help of the
         CDGC, to help the students in their career training and skill
@@ -73,8 +68,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={8}
-        headerTitle="Does the college also have companies that give international offers?
-"
+        headerTitle="Does the college also have companies that give international offers?"
       >
         The college does call companies that give domestic as well as
         international offers, but these international companies give offers to a
@@ -91,8 +85,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={10}
-        headerTitle="What strategies does the college employ to keep its curriculum aligned with industry trends and demands?
-"
+        headerTitle="What strategies does the college employ to keep its curriculum aligned with industry trends and demands?"
       >
         The college keeps updating its curriculum after some time, so that they
         cater to the needs of what the industry requires, so that the students
@@ -101,8 +94,7 @@ export default function Internships() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={11}
-        headerTitle="How does the college assist students in building a strong professional online presence, such as through LinkedIn or personal websites?
-"
+        headerTitle="How does the college assist students in building a strong professional online presence, such as through LinkedIn or personal websites?"
       >
         The college helps the students to build a strong professional presence,
         as the ACM society of the college organises various workshops, in which

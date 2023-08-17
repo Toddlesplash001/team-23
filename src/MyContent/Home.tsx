@@ -4,7 +4,12 @@ export default function Home() {
   return (
     <>
       <div>
-        <img src={Unknown} alt="Building of PEC" width={1440} height={500} ></img>
+        <img
+          src={Unknown}
+          alt="Building of PEC"
+          width={1382}
+          height={500}
+        ></img>
         <br></br>
         <br></br>
         Punjab Engineering College (abbreviated PEC or PEC Chandigarh) is a
@@ -20,6 +25,6 @@ export default function Home() {
         questions that arise in the minds of students when thinking about taking
         admission in this college.
       </div>
-      </>
+    </>
   );
 }

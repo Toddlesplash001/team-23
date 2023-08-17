@@ -1,8 +1,7 @@
 #root{
-    margin-top: 10%;
+    padding: 2.1%;
     text-align: left;
     background-color: rgb(208, 0, 0);
-    margin-top: 10%;
 }
 .accordion-button {
     color: #000000;
@@ -19,4 +18,7 @@
 }
 .accordion-item.content{
     background-color: black;
+}
+.ques-ans{
+    background-color: #E6DCD3 ;
 }

@@ -1,34 +1,25 @@
 #root {
-  
   text-align: center;
-  min-width: 175vh;
+  min-width: 176vh;
   background-color:tan;
-  text-decoration-color: tan;
-  padding: 1%;
-
+  margin-top: 0px;
 }
-
 ul {
-    padding-left: 10%;
-    
+  width:max-content;
+    margin-left: 48%;
+    margin-top: 0%;
+    margin-right: 0%;
     font-family: inherit;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     font-style: initial;
-    min-height: 5vh;
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1;
     text-align: justify;
     position: sticky;
-    z-index: 40;
-    top: 10px;
+    top: 0px;
     left: 0%;
-    margin-top: 0rem;
-    color:tan;
+    z-index: 40;
     }
 .nav_item {
-  
   margin-top: 3%;
 }
 div{
@@ -48,14 +39,10 @@ hr{
   background-color:  #E6DCD3;
   color: white;
   transition: all 0.1s linear;
-
 }
 .nav-tabs .nav-item:hover {
-  font-size: 25px;
+  font-size: 18px;
 }
-.nav-tabs{
- color: rgb(235, 0, 0);
- }
 .nav-tabs > li.active > a {
   color: #3c5a78;
   font-size: 16px;
