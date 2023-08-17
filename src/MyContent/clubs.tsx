@@ -1,15 +1,13 @@
 import React from "react";
 import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 import "../MyContent/Academics.css";
-import Footer from "../MyComponents/Footer";
+
 export default function Clubs() {
   return (
     <MDBAccordion flush initialActive={1}>
       <MDBAccordionItem
         collapseId={1}
-        headerTitle="How necessary are clubs and societies?
-
-"
+        headerTitle="How necessary are clubs and societies?"
       >
         Clubs and societies are the best way to socialise among others. After
         confining yourself in a room during JEE it's a good way to come out and
@@ -17,9 +15,7 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={2}
-        headerTitle="What are the clubs and societies in the college?
-
-"
+        headerTitle="What are the clubs and societies in the college?"
       >
         To bring out the creative side of students and to give them rest from
         the hectic schedule, the college has various technical societies and
@@ -36,8 +32,7 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={3}
-        headerTitle="Is there any academic advantage of these clubs and societies?
-"
+        headerTitle="Is there any academic advantage of these clubs and societies?"
       >
         These clubs and societies may help one academically as they refresh the
         mind and allows one to get some time away from the schedule of the
@@ -57,8 +52,7 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={5}
-        headerTitle="Do these clubs have an influence outside the college?
-"
+        headerTitle="Do these clubs have an influence outside the college?"
       >
         Yes, these clubs and societies have influence outside the college as
         well, as they send their teams to the other college events as well,
@@ -67,16 +61,14 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={6}
-        headerTitle=" Can one join multiple clubs at the same time?
-        "
+        headerTitle=" Can one join multiple clubs at the same time?"
       >
         Yes, one can join as many clubs as they want, but they have to set only
         one for proficiency and set their priorities.
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={7}
-        headerTitle=" How can I join the clubs I want to?
-        "
+        headerTitle=" How can I join the clubs I want to?"
       >
         All the clubs organise recruitment processes each year, and the
         interested students can apply for the club they want to go in. All the
@@ -84,9 +76,7 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={8}
-        headerTitle="What if I miss out on joining a club in my first year but I develop interest afterwards?
-
-        "
+        headerTitle="What if I miss out on joining a club in my first year but I develop interest afterwards?"
       >
         You can give an interview for a society or a club in the second year as
         the interviews are open for the first year students as well as second
@@ -94,8 +84,7 @@ export default function Clubs() {
       </MDBAccordionItem>
       <MDBAccordionItem
         collapseId={9}
-        headerTitle="If I am preparing for a competition and I go to participate in the competition, do I get attendance for it?
-        "
+        headerTitle="If I am preparing for a competition and I go to participate in the competition, do I get attendance for it?"
       >
         Yes, you get attendance if you miss classes due to practice or
         participating in a competition.

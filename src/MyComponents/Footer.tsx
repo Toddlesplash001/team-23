@@ -13,9 +13,7 @@ const Footer = () => {
           </div>
           <div className="sb__footer-links_div">
             <br></br>
-            
             <h4>Know its makers:</h4> 
-    
             <a href = "https://www.instagram.com/kuwarjainn/">
             <p><img src = {insta} alt = "" width = {15} height = {15}></img>  Kuwar Jain</p>
             </a>
@@ -26,10 +24,7 @@ const Footer = () => {
             <p><img src = {insta} alt = "" width = {15} height = {15}></img>  Devansh Vashisht</p>
             </a>
             </div>
-            
-            
-           
-        </div>
+       </div>
        <hr></hr>
        <div className = "sb__footer-below">
         <div className = "sb__footer-copyright">

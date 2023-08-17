@@ -8,8 +8,7 @@ import Academics from "../MyContent/Academics";
 import "./Header.css";
 export default function Header() {
   return (
-    <>
-      <ul className="nav nav-tabs nav-fill" id="myTab " role="tablist">
+    <><ul className="nav nav-tabs nav-fill" id="myTab " role="tablist">
         <li className="nav-item" role="presentation">
           <button
             className="nav-link active"
@@ -20,8 +19,7 @@ export default function Header() {
             role="tab"
             aria-controls="home-tab-pane"
             aria-selected="true"
-          >
-            HOME
+          >HOME
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -34,8 +32,7 @@ export default function Header() {
             role="tab"
             aria-controls="profile-tab-pane"
             aria-selected="false"
-          >
-            ACADEMICS
+          >ACADEMICS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -48,8 +45,7 @@ export default function Header() {
             role="tab"
             aria-controls="contact-tab-pane"
             aria-selected="false"
-          >
-            CLUBS AND SOCIETIES
+          >CLUBS AND SOCIETIES
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -62,8 +58,7 @@ export default function Header() {
             role="tab"
             aria-controls="sports-tab-pane"
             aria-selected="false"
-          >
-            SPORTS
+          >SPORTS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -76,8 +71,7 @@ export default function Header() {
             role="tab"
             aria-controls="hostels-tab-pane"
             aria-selected="false"
-          >
-            HOSTELS
+          >HOSTELS
           </button>
         </li>
         <li className="nav-item" role="presentation">
@@ -90,8 +84,7 @@ export default function Header() {
             role="tab"
             aria-controls="internships-tab-pane"
             aria-selected="false"
-          >
-            PLACEMENTS
+          >PLACEMENTS
           </button>
         </li>
       </ul>
@@ -102,17 +95,16 @@ export default function Header() {
           role="tabpanel"
           aria-labelledby="home-tab"
           tabindex="0"
-        >
+        ><br></br>
           <Home />
         </div>
-
         <div
           className="tab-pane fade"
           id="profile-tab-pane"
           role="tabpanel"
           aria-labelledby="profile-tab"
           tabindex="0"
-        >
+        > <br></br>
           <Academics />
         </div>
         <div
@@ -121,17 +113,16 @@ export default function Header() {
           role="tabpanel"
           aria-labelledby="contact-tab"
           tabindex="0"
-        >
+        > <br></br>
           <Club />
         </div>
-
         <div
           className="tab-pane fade"
           id="sports-tab-pane"
           role="tabpanel"
           aria-labelledby="Sports-tab"
           tabindex="0"
-        >
+        > <br></br>
           <Sports/>
         </div>
         <div
@@ -140,7 +131,7 @@ export default function Header() {
           role="tabpanel"
           aria-labelledby="Hostels-tab"
           tabindex="0"
-        >
+        > <br></br>
           <Hostel />
         </div>
         <div
@@ -149,7 +140,7 @@ export default function Header() {
           role="tabpanel"
           aria-labelledby="internships-tab"
           tabindex="0"
-        >
+        > <br></br>
           <Internships />
         </div>
       </div>

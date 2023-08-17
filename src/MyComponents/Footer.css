@@ -2,13 +2,11 @@
     padding: 1rem 4rem;
     min-width: 140vh;
     margin-top: auto;
-
 }
 .footer{
     background-color: #2d2d32;
     margin-top: auto;
     height: 35vh;
-  
 }
 .sb__footer{
     display: flex;
@@ -23,7 +21,6 @@
     width: 100%;
     text-align: left;
     margin-bottom: 2rem;
-
 }
 .sb__footer-links_request h3{
     color: rgb(255, 255, 255);
@@ -52,7 +49,6 @@
 a{
     color: rgb(165, 57, 57);
     text-decoration: none;
-
 }
 .socialmedia{
     display: flex;
@@ -110,7 +106,6 @@ font-weight: 600;
         font-size: 44px;
         line-height: 50px;
     }
-   
 }
 @media screen and (max-width: 550px) {
     .sb__footer-heading h1{
@@ -135,7 +130,6 @@ font-weight: 600;
         margin-left: 0rem;
         margin-top: 1rem;
     }
-
 }
 .app{
     min-height: 100vh;
